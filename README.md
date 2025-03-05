@@ -4,6 +4,7 @@ Vue + TypeScript を使用して開発したポートフォリオサイトです
 
 ## :globe_with_meridians: URL
 https://kana.fukami.info/
+![https://kana.fukami.info/](https://kana.fukami.info/)
 
 ## 🛠 使用技術
 - Vue3

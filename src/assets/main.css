@@ -1,0 +1,84 @@
+@import './base.css';
+
+.main-contents {
+	width: calc(100% - 40px);
+	margin: 60px auto 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.main-contents {
+		width: calc(100% - 100px);
+	}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+	main {
+		font-size: 1.4rem;
+	}
+
+	.main-contents {
+		width: calc(100% - 160px);
+		max-width: 1280px;
+		margin: 100px auto;
+	}
+}
+
+
+/* ------ */
+
+.sectionHeader__ttl {
+	font-size: 1.8rem;
+	font-family: 'Shippori Mincho', serif;
+    letter-spacing: 0.15em;
+	transform: scaleY(0.9);
+    transform-origin: 0 0;
+}
+
+
+/* ------ */
+
+.c-section {
+	margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.c-section {
+		margin-top: 60px;
+	}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+	.c-section {
+		margin-top: 100px;
+	}
+	
+}
+
+
+/* --------------------------------------- */
+
+section[id] {
+	margin-top: -60px;
+	margin-bottom: 60px;
+	padding-top: 60px;
+}
+
+section[id]:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 1280px) {
+
+	section[id] {
+		margin-top: -100px;
+		margin-bottom: 100px;
+		padding-top: 100px;
+	}
+
+}

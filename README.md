@@ -3,7 +3,7 @@ Vue + TypeScript を使用して開発したポートフォリオサイトです
 元々Vanilla JS + HTML/CSS で作っていたものをVue + TypeScriptでリファクタリングし、よりメンテナンスしやすいコードにしました。
 
 ## :globe_with_meridians: URL
-https://kana.fukami.info/
+https://kana.fukami.info/  ※Basic認証をかけています
 
 ## 🛠 使用技術
 - Vue3
